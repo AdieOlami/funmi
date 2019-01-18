@@ -4,10 +4,28 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>funmi.xcscheme_^#shared#^_</key>
+		<key>funmi.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E7A282EB21ECD9B5005F8E4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7A282FF21ECD9B9005F8E4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E7A2830A21ECD9B9005F8E4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
