@@ -6,4 +6,6 @@ xcode_scheme: funmi #4
 xcode_destination: platform=iOS Simulator,OS=11.1,name=iPhone X
 
 # script: xctool -sdk iphonesimulator -workspace funmi.xcworkspace -scheme funmi build test
-script: xctool -project funmi.xcodeproj -scheme funmi build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+# script: xctool -project funmi.xcodeproj -scheme funmi build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
+script:
+    - xcodebuild clean build -sdk iphonesimulator -project funmi.xcodeproj -scheme funmi build  CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO
