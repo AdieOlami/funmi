@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E758EDEF21EE5A72005A16FC /* Funmi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E758EDEE21EE5A72005A16FC /* Funmi.swift */; };
 		E7A282F021ECD9B5005F8E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A282EF21ECD9B5005F8E4B /* AppDelegate.swift */; };
 		E7A282F221ECD9B5005F8E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A282F121ECD9B5005F8E4B /* ViewController.swift */; };
 		E7A282F521ECD9B5005F8E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A282F321ECD9B5005F8E4B /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		E7A282FA21ECD9B9005F8E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7A282F821ECD9B9005F8E4B /* LaunchScreen.storyboard */; };
 		E7A2830521ECD9B9005F8E4B /* funmiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A2830421ECD9B9005F8E4B /* funmiTests.swift */; };
 		E7A2831021ECD9B9005F8E4B /* funmiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A2830F21ECD9B9005F8E4B /* funmiUITests.swift */; };
+		E7A2832621ECDB30005F8E4B /* BottomDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A2832421ECDB30005F8E4B /* BottomDrawer.swift */; };
+		E7A2832721ECDB30005F8E4B /* BottomDrawer.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A2832521ECDB30005F8E4B /* BottomDrawer.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E758EDEE21EE5A72005A16FC /* Funmi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funmi.swift; sourceTree = "<group>"; };
 		E7A282EC21ECD9B5005F8E4B /* funmi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = funmi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A282EF21ECD9B5005F8E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7A282F121ECD9B5005F8E4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		E7A2830B21ECD9B9005F8E4B /* funmiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = funmiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A2830F21ECD9B9005F8E4B /* funmiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funmiUITests.swift; sourceTree = "<group>"; };
 		E7A2831121ECD9B9005F8E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A2832421ECDB30005F8E4B /* BottomDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDrawer.swift; sourceTree = "<group>"; };
+		E7A2832521ECDB30005F8E4B /* BottomDrawer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BottomDrawer.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,8 @@
 				E7A282F621ECD9B9005F8E4B /* Assets.xcassets */,
 				E7A282F821ECD9B9005F8E4B /* LaunchScreen.storyboard */,
 				E7A282FB21ECD9B9005F8E4B /* Info.plist */,
+				E7A2832121ECDAA5005F8E4B /* BottomDrawer */,
+				E758EDEE21EE5A72005A16FC /* Funmi.swift */,
 			);
 			path = funmi;
 			sourceTree = "<group>";
@@ -123,6 +131,15 @@
 				E7A2831121ECD9B9005F8E4B /* Info.plist */,
 			);
 			path = funmiUITests;
+			sourceTree = "<group>";
+		};
+		E7A2832121ECDAA5005F8E4B /* BottomDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				E7A2832421ECDB30005F8E4B /* BottomDrawer.swift */,
+				E7A2832521ECDB30005F8E4B /* BottomDrawer.xib */,
+			);
+			path = BottomDrawer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +249,7 @@
 				E7A282FA21ECD9B9005F8E4B /* LaunchScreen.storyboard in Resources */,
 				E7A282F721ECD9B9005F8E4B /* Assets.xcassets in Resources */,
 				E7A282F521ECD9B5005F8E4B /* Main.storyboard in Resources */,
+				E7A2832721ECDB30005F8E4B /* BottomDrawer.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A282F221ECD9B5005F8E4B /* ViewController.swift in Sources */,
+				E758EDEF21EE5A72005A16FC /* Funmi.swift in Sources */,
+				E7A2832621ECDB30005F8E4B /* BottomDrawer.swift in Sources */,
 				E7A282F021ECD9B5005F8E4B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
