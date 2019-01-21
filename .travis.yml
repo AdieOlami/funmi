@@ -12,8 +12,6 @@ env:
   - DESTINATION="platform=iOS Simulator,OS=11.3,name=iPhone X"           SCHEME="$IOS_FRAMEWORK_SCHEME"     SDK="$IOS_SDK"
 
 script:
-- brew unlink swiftlint
-- brew install swiftlint
 - xcodebuild -version
 - xcodebuild -showsdks
 - xcodebuild -project "$PROJECT" -scheme "$SCHEME" -sdk "$SDK" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO -enableCodeCoverage YES ENABLE_TESTABILITY=YES build test
